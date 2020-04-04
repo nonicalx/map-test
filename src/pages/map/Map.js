@@ -44,7 +44,7 @@ function Map(props) {
     return (
         <div className="mapContent">
             <RenderMap
-                googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${key}`}
+                googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places`}
                 loadingElement={<div className="setHeight" />}
                 containerElement={<div className="setHeight" />}
                 mapElement={<div className="setHeight" />}
